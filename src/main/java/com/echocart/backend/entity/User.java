@@ -5,6 +5,8 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
+import java.util.List;
+
 @Entity
 @Table(name = "users")
 public class User {
@@ -35,6 +37,10 @@ public class User {
     @Email
     @Column(nullable = false, unique = true)
     private String email;
+
+    @OneToMany(mappedBy = "userId", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Order> orders;
+
 
     // Getters and Setters
     public Long getUserId() { return userId; }
