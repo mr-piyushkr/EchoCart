@@ -5,10 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-/**
- * Hello world!
- *
- */
 @SpringBootApplication
 public class EchoCart
 {
