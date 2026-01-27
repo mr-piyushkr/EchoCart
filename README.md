@@ -136,6 +136,8 @@ Feel free to fork this repo and submit a PR.
 ## ⭐ Show Your Support
 If you like this project, give it a ⭐ on GitHub — it really helps!
 
+## 📄 License
+This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
