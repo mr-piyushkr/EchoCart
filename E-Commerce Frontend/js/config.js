@@ -1,0 +1,8 @@
+// API Configuration
+const API_BASE_URL = 'http://[EC2-PUBLIC-IP]:8080';
+
+// Replace [EC2-PUBLIC-IP] with your actual EC2 public IP address
+// Example: const API_BASE_URL = 'http://54.123.45.67:8080';
+
+// Use this in your JavaScript files:
+// fetch(`${API_BASE_URL}/api/products`)
