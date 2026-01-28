@@ -211,11 +211,17 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Author
 
 ### Piyush Kumar
-- 💼 Aspiring Software Developer
-- 🚀 Passionate about Backend & Full-Stack Development
+🚀Full Stack Developer (Spring Boot & AWS)
 
-### To Connect
-- Portfolio: [Link](https://my-portfolio-umber-zeta-11.vercel.app/)
-- GitHub: [mr-piyushkr](https://github.com/mr-piyushkr)
-- LinkedIn: [Piyush Kumar](https://linkedin.com/in/piyushkumar06)
-- Email: 0602.piyushkumar@gmail.com
+<h3 align="center">📬 Let's Connect</h3>
+
+<p align="center">
+  <a href="https://my-portfolio-umber-zeta-11.vercel.app/" target="_blank">🌐 Portfolio</a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/mr-piyushkr" target="_blank">💻 GitHub</a>
+  &nbsp;•&nbsp;
+  <a href="https://linkedin.com/in/piyushkumar06" target="_blank">💼 LinkedIn</a>
+  &nbsp;•&nbsp;
+  <a href="mailto:0602.piyushkumar@gmail.com">📧 Email</a>
+</p>
+
