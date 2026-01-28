@@ -1,5 +1,5 @@
 // Utility functions
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = 'http://13.51.13.143:8080/api';
 
 const apiRequest = async (url, options = {}) => {
     const response = await fetch(url, {
@@ -17,7 +17,7 @@ const showError = (element, message) => {
 
 const getErrorMessage = (error) => {
     if (error.message.includes('Failed to fetch')) {
-        return 'Cannot connect to server. Please check if the backend is running on port 8081.';
+        return 'Cannot connect to server. Please check if the backend is running on port 8080.';
     }
     if (error.message.includes('HTTP 401')) return 'Invalid email or password. Please try again.';
     if (error.message.includes('HTTP 400')) return 'Invalid data. Please check your inputs.';
