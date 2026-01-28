@@ -83,7 +83,7 @@ async function handleProductSubmission(e) {
         
         if (editId) {
             // Update existing product
-            response = await fetch(`http://localhost:8081/api/products/${editId}`, {
+            response = await fetch(`http://13.51.13.143:8080/api/products/${editId}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
@@ -285,7 +285,7 @@ function storeProduct(product) {
 async function loadStoredProducts() {
     try {
         // Fetch from backend
-        const response = await fetch('http://localhost:8081/api/products', {
+        const response = await fetch('http://13.51.13.143:8080/api/products', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
@@ -344,7 +344,7 @@ function getCategoryFromId(categoryId) {
 // Edit product function
 async function editProduct(productId) {
     try {
-        const response = await fetch(`http://localhost:8081/api/products/${productId}`);
+        const response = await fetch(`http://13.51.13.143:8080/api/products/${productId}`);
         const data = await response.json();
         
         if (data.success) {
@@ -384,7 +384,7 @@ async function deleteProduct(productId) {
     }
     
     try {
-        const response = await fetch(`http://localhost:8081/api/products/${productId}`, {
+        const response = await fetch(`http://13.51.13.143:8080/api/products/${productId}`, {
             method: 'DELETE'
         });
         

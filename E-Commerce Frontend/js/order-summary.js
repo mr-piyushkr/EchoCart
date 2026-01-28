@@ -90,7 +90,7 @@ async function confirmOrder() {
     };
     
     try {
-        const response = await fetch('http://localhost:8081/api/orders', {
+        const response = await fetch('http://13.51.13.143:8080/api/orders', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -157,7 +157,7 @@ async function proceedToPayment() {
     proceedPaymentBtn.disabled = true;
     
     try {
-        const response = await fetch(`http://localhost:8081/api/orders/${currentOrderData.orderId}/payment`, {
+        const response = await fetch(`http://13.51.13.143:8080/api/orders/${currentOrderData.orderId}/payment`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
