@@ -213,3 +213,9 @@ This project is licensed under the MIT License.
 ### Piyush Kumar
 - 💼 Aspiring Software Developer
 - 🚀 Passionate about Backend & Full-Stack Development
+
+### To Connect
+- Portfolio: [Link](https://my-portfolio-umber-zeta-11.vercel.app/)
+- GitHub: [mr-piyushkr](https://github.com/mr-piyushkr)
+- LinkedIn: [Piyush Kumar](https://linkedin.com/in/piyushkumar06)
+- Email: 0602.piyushkumar@gmail.com
